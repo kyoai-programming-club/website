@@ -1,0 +1,378 @@
+@charset "utf-8";
+/* コモン */
+body {
+  margin: 0;
+  /* padding-bottom: 60px; */
+}
+
+footer {
+  margin-top: 60px;
+  margin-bottom: 12px;
+  text-align: center;
+  color: #888;
+  font-size: 12px;
+}
+
+h1 {
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  all: unset;
+}
+
+.for-tablet {
+  display: none;
+}
+
+/*header*/
+header {
+  text-align: center;
+  padding: 60px 0px;
+}
+
+h1 {
+  font-size: 20px;
+  color: #444;
+  line-height: 2;
+  font-family: "a-otf-ryumin-pr6n", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.sub-title {
+  font-size: 10px;
+  color: #707070;
+  margin-top: 0px;
+  line-height: 2;
+  font-family: "a-otf-ryumin-pr6n", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+header p {
+  font-size: 12px;
+  color: #707070;
+  margin-top: 14px;
+  line-height: 2;
+  font-family: "a-otf-ryumin-pr6n", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/*enter*/
+
+.enter {
+  text-align: center;
+}
+
+.enter h2 {
+  font-size: 18px;
+  line-height: 2;
+  font-family: "a-otf-ryumin-pr6n", serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #444;
+}
+
+.enter p {
+  margin-top: 8px;
+  font-size: 10px;
+  line-height: 2;
+  color: #333;
+  font-family: fot-tsukuardgothic-std, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* コンタクト */
+.contact {
+  text-align: center;
+}
+.contact h2 {
+  margin-top: 16px;
+  font-size: 18px;
+  line-height: 2;
+  font-family: "a-otf-ryumin-pr6n", serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #444;
+}
+
+.contact p {
+  margin-top: 8px;
+  font-size: 10px;
+  line-height: 2;
+  color: #333;
+  font-family: fot-tsukuardgothic-std, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.contact .btn1 {
+  margin-top: 16px;
+  color: white;
+  background: #838383;
+  text-decoration: none;
+  font-size: 10px;
+  line-height: 42px;
+  font-family: fot-tsukuardgothic-std, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  width: 176px;
+  height: 42px;
+  display: inline-block;
+  border-radius: 21px;
+}
+
+.btn1 {
+  display: none;
+}
+
+.contact .back {
+  display: block;
+  text-decoration: none;
+  margin-top: 16px;
+  margin-right: 36px;
+  margin-bottom: 32px;
+  font-family: fot-tsukuardgothic-std, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 2.4;
+  text-align: right;
+  color: #333;
+}
+
+.back-tablet {
+  display: none;
+}
+
+/* コンセプト */
+.concept {
+  background: linear-gradient(90deg, #fff 0px, #fff 64px, #F4F3F3 64px, #F4F3F3 100%);
+  padding: 17px 0;
+}
+.concept h2 {
+  font-size: 18px;
+  line-height: 2;
+  font-family: "a-otf-ryumin-pr6n", serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #444;
+  margin-left: 16px;
+}
+
+.concept p {
+  font-family: fot-tsukuardgothic-std, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 2;
+  color: #333;
+  margin-top: 16px;
+  margin-left: 16px;
+}
+
+@media (min-width: 768px) {
+  .for-sp {
+    display: none;
+  }
+  .for-tablet {
+    display: block;
+  }
+
+  /*header*/
+
+  header {
+    text-align: center;
+    padding: 60px 0px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #444;
+    line-height: 2;
+    font-family: "a-otf-ryumin-pr6n", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .sub-title {
+    font-size: 18px;
+    color: #707070;
+    margin-top: 2px;
+    line-height: 2;
+    font-family: "a-otf-ryumin-pr6n", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  header p {
+    font-size: 22px;
+    color: #707070;
+    margin-top: 14px;
+    line-height: 2;
+    font-family: "a-otf-ryumin-pr6n", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  header a {
+    display: inline-block;
+    margin: 31px auto 0 auto;
+    line-height: 2;
+    font-size: 18px;
+    color: #444;
+    border: 1px solid #C5C5C5;
+    width: 194px;
+    height: 34px;
+    border-radius: 27px;
+    font-family: "a-otf-ryumin-pr6n", serif;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+  }
+
+  .enter-flex {
+    display: flex;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 64px;
+  }
+
+  .enter-flex p {
+    margin-top: 18px;
+    font-size: 13px;
+  }
+
+  .enter {
+    flex: 1;
+  }
+  .enter h2 {
+    font-size: 23px;
+    line-height: 1;
+  }
+  .contact {
+    flex: 1;
+  }
+  .contact h2 {
+    font-size: 23px;
+    line-height: 1;
+    margin-top: 0;
+  }
+
+  .contact .back {
+    display: none;
+  }
+
+  .contact .btn1 {
+    display: none;
+  }
+
+  .btn1 {
+  
+  color: white;
+  background: #838383;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 82px;
+  font-family: fot-tsukuardgothic-std, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  width: 344px;
+  height: 82px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 41px;
+  }
+
+  .back-tablet {
+  display: block;
+  text-decoration: none;
+  margin-top: 16px;
+  margin-right: 32px;
+  margin-bottom: 64px;
+  font-family: fot-tsukuardgothic-std, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 2.4;
+  text-align: right;
+  color: #333;
+  }
+
+  /*enter-desc*/
+  .enter-desc {
+    position: relative;
+    flex: 1;
+    margin: 0 32px 0 0;
+    padding: 17px 0;
+  }
+  
+  .enter-desc h2 {
+    font-size: 17px;
+    line-height: 2;
+    font-family: "a-otf-ryumin-pr6n", serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #444;
+    margin-left: 16px;
+  }
+  
+  .border1 {
+    margin-top: 16px;
+  }
+  .border3 {
+    border-bottom: 0.30000001192092896px solid #9A9A9A; 
+  }
+  
+  .enter-desc p {
+    margin-left: 16px;
+    margin-right: 16px;
+    font-family: fot-tsukuardgothic-std, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 2;
+    color: #333;
+    border-top: 0.30000001192092896px solid #9A9A9A;
+    padding: 12px 0;
+  }
+  
+  .enter-desc span {
+    margin-right: 11px;
+    font-family: fot-tsukuardgothic-std, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 2;
+    color: #707070;
+  }
+  .enter-desc-image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  .enter-desc-flex {
+    display: flex;
+  }
+
+  .enter-desc-flex section {
+    flex: 1;
+  }
+}
